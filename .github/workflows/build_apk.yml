@@ -1,0 +1,52 @@
+name: Build SH Calling Debug APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-apk:
+    name: Build SH-Calling.apk
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make gradlew executable (if present)
+        run: |
+          if [ -f "./gradlew" ]; then
+            chmod +x ./gradlew
+          fi
+
+      - name: Build Debug APK
+        run: |
+          if [ -f "./gradlew" ]; then
+            ./gradlew assembleDebug --stacktrace
+          else
+            gradle assembleDebug --stacktrace
+          fi
+
+      - name: Rename APK to SH-Calling.apk
+        run: |
+          mkdir -p build_artifacts
+          cp app/build/outputs/apk/debug/app-debug.apk build_artifacts/SH-Calling.apk
+
+      - name: Upload SH-Calling.apk Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SH-Calling-APK
+          path: build_artifacts/SH-Calling.apk
+          retention-days: 30

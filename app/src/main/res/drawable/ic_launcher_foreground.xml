@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle Phone Signal Wave Arcs (inside 66dp safe zone) -->
+    <path
+        android:pathData="M65,28 A13,13 0 0,1 79,42"
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M69,23 A19,19 0 0,1 84,38"
+        android:strokeColor="#4DFFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round" />
+
+    <!-- Bold Letter "S" (centered inside safe zone) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,44.5 C49,39.5 44.6,36.5 38.4,36.5 C32.2,36.5 27.8,39.7 27.8,44.8 C27.8,49.6 31.4,52.0 37.5,53.3 L40.8,54.0 C44.0,54.7 45.3,55.8 45.3,57.8 C45.3,60.1 43.0,61.6 39.3,61.6 C35.5,61.6 32.9,60.1 32.3,57.0 L26.7,58.0 C27.6,63.7 32.3,66.8 39.3,66.8 C46.4,66.8 51.2,63.3 51.2,57.6 C51.2,52.6 48.0,50.0 41.8,48.6 L38.3,47.9 C34.9,47.2 33.6,46.2 33.6,44.4 C33.6,42.4 35.6,41.2 38.5,41.2 C41.6,41.2 43.5,42.5 44.0,45.1 Z" />
+
+    <!-- Bold Letter "H" (centered inside safe zone) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,37.0 L62.0,37.0 L62.0,48.8 L74.4,48.8 L74.4,37.0 L80.4,37.0 L80.4,66.2 L74.4,66.2 L74.4,54.2 L62.0,54.2 L62.0,66.2 L56,66.2 Z" />
+
+    <!-- Subtle VoIP Phone Wave Curve -->
+    <path
+        android:pathData="M37,75.5 Q54,82 71,75.5"
+        android:strokeColor="#D9FFFFFF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round" />
+</vector>

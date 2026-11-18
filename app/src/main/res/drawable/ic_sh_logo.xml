@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Circular Blue-to-Cyan Gradient Background -->
+    <path android:pathData="M54,4 A50,50 0 1,1 54,104 A50,50 0 1,1 54,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="12"
+                android:startY="12"
+                android:endX="96"
+                android:endY="96"
+                android:type="linear">
+                <item android:color="#1D4ED8" android:offset="0.0" />
+                <item android:color="#0284C7" android:offset="0.52" />
+                <item android:color="#06B6D4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Inner Rim Highlight -->
+    <path
+        android:pathData="M54,7 A47,47 0 1,1 54,101 A47,47 0 1,1 54,7 Z"
+        android:strokeColor="#40FFFFFF"
+        android:strokeWidth="1.5" />
+
+    <!-- Subtle Phone Signal Wave Arcs (Top Right) -->
+    <path
+        android:pathData="M67,25 A15,15 0 0,1 83,41"
+        android:strokeColor="#70FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M71,19 A22,22 0 0,1 89,37"
+        android:strokeColor="#45FFFFFF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+
+    <!-- Bold Letter "S" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48.5,43.5 C48.5,38.2 43.8,35 37.2,35 C30.6,35 26,38.4 26,43.8 C26,48.9 29.8,51.4 36.2,52.8 L39.8,53.6 C43.2,54.3 44.6,55.5 44.6,57.6 C44.6,60.1 42.1,61.6 38.2,61.6 C34.1,61.6 31.4,60.0 30.8,56.8 L24.8,57.8 C25.8,63.9 30.7,67.2 38.2,67.2 C45.8,67.2 50.8,63.5 50.8,57.4 C50.8,52.1 47.4,49.3 40.8,47.9 L37.1,47.1 C33.5,46.4 32.1,45.3 32.1,43.4 C32.1,41.3 34.2,40.0 37.3,40.0 C40.6,40.0 42.6,41.4 43.1,44.2 Z" />
+
+    <!-- Bold Letter "H" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,35.6 L62.4,35.6 L62.4,48.0 L75.6,48.0 L75.6,35.6 L82,35.6 L82,66.6 L75.6,66.6 L75.6,53.8 L62.4,53.8 L62.4,66.6 L56,66.6 Z" />
+
+    <!-- Subtle VoIP Soundwave / Phone Handset Accent Bar at Bottom -->
+    <path
+        android:pathData="M36,77 Q54,84 72,77"
+        android:strokeColor="#CCFFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+</vector>

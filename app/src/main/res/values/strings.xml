@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SH Calling</string>
+    <string name="splash_welcome_text">Wellcome to SH Calling World</string>
+    <string name="splash_subtitle">Multi-Account VoIP &amp; SIP Softphone</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="tab_dialer">Dialer</string>
+    <string name="tab_recents">Recents</string>
+    <string name="tab_accounts">Accounts</string>
+
+    <!-- Top Bar & Account Status -->
+    <string name="no_account_selected">No SIP Account</string>
+    <string name="tap_to_add_account">Tap Accounts to add</string>
+    <string name="status_registered">Registered</string>
+    <string name="status_registering">Registering</string>
+    <string name="status_failed">Failed / Offline</string>
+    <string name="status_offline">Offline</string>
+    <string name="select_outgoing_account">Select Outgoing Account</string>
+
+    <!-- Dialer -->
+    <string name="dialpad_placeholder">Enter number or SIP URI</string>
+    <string name="action_call">Call</string>
+    <string name="action_backspace">Delete digit</string>
+    <string name="error_no_registered_account">Select or register a SIP account first</string>
+    <string name="error_empty_number">Enter a number or SIP address to call</string>
+    <string name="permission_mic_required">Microphone permission is required for VoIP calls</string>
+    <string name="permission_grant">Grant</string>
+
+    <!-- Accounts -->
+    <string name="accounts_title">SIP Accounts</string>
+    <string name="add_account">Add SIP Account</string>
+    <string name="edit_account">Edit SIP Account</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="save_account">Save &amp; Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="field_account_label">Account Label / Name</string>
+    <string name="field_sip_domain">SIP Domain / Host</string>
+    <string name="field_port">Port</string>
+    <string name="field_username">Username</string>
+    <string name="field_password">Password</string>
+    <string name="field_transport">Transport Protocol</string>
+    <string name="empty_accounts_title">No SIP Accounts Yet</string>
+    <string name="empty_accounts_subtitle">Add one or more SIP accounts to register concurrently and start making VoIP calls.</string>
+    <string name="set_as_active">Use for Outgoing</string>
+    <string name="active_badge">ACTIVE</string>
+    <string name="retry_registration">Re-register</string>
+
+    <!-- Recent Calls -->
+    <string name="recents_title">Recent Calls</string>
+    <string name="clear_recents">Clear History</string>
+    <string name="empty_recents_title">No Recent Calls</string>
+    <string name="empty_recents_subtitle">Calls placed or received across your SIP accounts will appear here.</string>
+    <string name="via_account">via %1$s</string>
+
+    <!-- Active Call -->
+    <string name="call_status_outgoing">Calling…</string>
+    <string name="call_status_ringing">Ringing…</string>
+    <string name="call_status_incoming">Incoming VoIP Call</string>
+    <string name="call_status_connected">Connected</string>
+    <string name="call_status_paused">On Hold</string>
+    <string name="call_status_ended">Call Ended</string>
+    <string name="action_mute">Mute</string>
+    <string name="action_unmute">Unmute</string>
+    <string name="action_speaker">Speaker</string>
+    <string name="action_hold">Hold</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_keypad">Keypad</string>
+    <string name="action_end_call">End Call</string>
+    <string name="action_answer">Answer</string>
+    <string name="action_decline">Decline</string>
+    <string name="hide_keypad">Hide Keypad</string>
+
+    <!-- Foreground Service -->
+    <string name="sip_service_channel_name">SH Calling SIP Service</string>
+    <string name="sip_service_notification_title">SH Calling Active</string>
+    <string name="sip_service_notification_text">SIP registration service is running</string>
+    <string name="action_share_apk">Share APK</string>
+</resources>
